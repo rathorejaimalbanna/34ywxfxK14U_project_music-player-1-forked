@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Static Template</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div 
+                style="font-size:1.8vw;display: flex; align-items: center; margin-left: 10px;justify-content: space-evenly;width: 400px;">
+
+                <img id="navimg" src="./295129.png" alt="">
+                <span class="collapse"><a href="#" style="color: white;text-decoration: none;"> Home</a></span>
+                <span class="collapse "><a href="#" style="color: white;text-decoration: none;">Liberary</a></span>
+                <span class="collapse "><a href="#" style="color: white;text-decoration: none;">Stop Music</a></span>
+            </div>
+            <div id="hidnav"
+                style="display: flex; margin-right: 10px;align-items:center;justify-content: space-evenly;width: 400px;font-size:1.8vw">
+                <span class="collapse Search"><input type="textarea" placeholder="Search"></span>
+                <span class="collapse "><button type="submit"
+                        style="margin: 1px;border:1px solid rgb(255,255,255);background:transparent;border-radius: 10%;width: 80px;height: 35px; color:rgb(255,255,255)">Login</button></span>
+            </div>
+
+        </div>
+    </nav>
+    <br><br><br>
+    <aside id="aside">
+        <div class="aside">
+            <h2 style="font-size: 2.3vw;letter-spacing: .2vw;color: rgb(255,255,255);">Music</h2>
+            <br><br>
+            <ul style="padding: 0px 20px;">
+                <li><a id="tar" href="#" style="color: white;text-decoration: none;">Playlist</a></li>
+                <hr>
+                <li><a id="tar" href="#" style="color: white;text-decoration: none;">Favourite</a></li>
+                <hr>
+                <li><a id="tar" href="#" style="color: white;text-decoration: none;">Artist</a></li>
+                <hr>
+                <li><a id="tar" href="#" style="color: white;text-decoration: none;">Album</a></li>
+                <hr>
+            </ul>
+        </div>
+    </aside>
+    <h2 style="display:inline-block;margin-left:1%;font-size: 2.3vw;letter-spacing: .1vw; color: rgb(240, 167, 167);">
+        Artists</h2>
+
+    <div id="artistdiv">
+        <div class="artistimg">
+            <img src="./eminem.jpg" alt="">
+            <span>Eminem </span>
+            <div class="absolut"><a href="#player"><i class="fa-solid fa-play fa-lg"></i></a></div>
+        </div>
+        <div class="artistimg">
+            <img src="./score.jpg" alt="">
+            <span>The Score </span>
+            <div class="absolut"><a href="#player"><i class="fa-solid fa-play fa-lg"></i></a></div>
+        </div>
+        <div class="artistimg">
+            <img src="./karma.jpg" alt="">
+            <span>Karma </span>
+            <div class="absolut"><a href="#player"><i class="fa-solid fa-play fa-lg"></i></a></div>
+        </div>
+        <div class="artistimg">
+            <img src="./khalid.jpg" alt="">
+            <span>Khalid </span>
+            <div class="absolut"><a href="#player"><i class="fa-solid fa-play fa-lg"></i></a></div>
+        </div>
+        <div class="artistimg">
+            <img src="./nef.jpg" alt="">
+            <span>Neffex </span>
+            <div class="absolut"><a href="#player"><i class="fa-solid fa-play fa-lg"></i></a></div>
+        </div>
+        <span id="More" style="float: right;font-size: 1.5vw;">More <img id="gt" src="./gt.png" alt=""></span>
+    </div>
+    <h2 style="display:inline-block;margin-left:1%;font-size: 2.3vw;letter-spacing: .1vw; color: rgb(248, 150, 150);">
+        Favourite Songs</h2>
+
+    <div id="artistdiv">
+        <div class="artist">
+            <img src="./eminem.jpg" alt="">
+            <span>Eminem </span>
+        </div>
+        <div class="artist">
+            <img src="./iage.webp" alt="">
+            <span>imagine dragons </span>
+        </div>
+        <div class="artist">
+            <img src="./emi.jpg" alt="">
+            <span>never lose</span>
+        </div>
+        <div class="artist">
+            <img src="./draga.jpg" alt="">
+            <span>Castle</span>
+        </div>
+        <div class="artist">
+            <img src="./higher.jpg" alt="">
+            <span>higher</span>
+        </div>
+        <div class="artist">
+            <img src="./karma.jpg" alt="">
+            <span>Karma </span>
+        </div>
+        <div class="artist">
+            <img src="./khalid.jpg" alt="">
+            <span>Khalid </span>
+        </div>
+        <div class="artist">
+            <img src="./nef.jpg" alt="">
+            <span>Neffex </span>
+        </div>
+
+    </div>
+    <h2 style="display:inline-block;margin-left:1%;font-size: 2.3vw;letter-spacing: vw; color: rgb(248, 150, 150);">
+        Pick One</h2>
+    <div id="artistdiv" class="pickdiv">
+        <div class="artistedm ">
+            <img src="./edm.jpg" alt="" style="max-height: 210px;">
+        </div>
+        <div class="artistedm">
+            <img src="./hip.jpg" alt="">
+        </div>
+        <div class="artistedm">
+            <img src="./Rap-copy-900x600.jpg" alt="">
+        </div>
+        <span id="More" style="float: right;font-size: 1.5vw;">More <img id="gt" src="./gt.png" alt=""></span>
+    </div>
+    <h2 style="display:inline-block;margin-left:1%;font-size: 2.3vw;letter-spacing: .1vw; color: rgb(248, 150, 150);">
+        Latest Release</h2>
+
+    <div id="artistdiv">
+        <div class="artist">
+            <img src="./eminem.jpg" alt="">
+            <span>Eminem </span>
+        </div>
+        <div class="artist">
+            <img src="./iage.webp" alt="">
+            <span>imagine dragons </span>
+        </div>
+        <div class="artist">
+            <img src="./emi.jpg" alt="">
+            <span>never lose</span>
+        </div>
+        <div class="artist">
+            <img src="./draga.jpg" alt="">
+            <span>Castle</span>
+        </div>
+        <div class="artist">
+            <img src="./higher.jpg" alt="">
+            <span>higher</span>
+        </div>
+        <div class="artist">
+            <img src="./karma.jpg" alt="">
+            <span>Karma </span>
+        </div>
+        <div class="artist">
+            <img src="./khalid.jpg" alt="">
+            <span>Khalid </span>
+        </div>
+        <div class="artist">
+            <img src="./nef.jpg" alt="">
+            <span>Neffex </span>
+        </div>
+
+    </div>
+    <h2 style="display:inline-block;margin-left:1%;font-size: 2.3vw;letter-spacing: .1vw; color: rgb(248, 150, 150);">
+        Forgoten Favourite</h2>
+
+    <div id="artistdiv">
+        <div class="artist">
+            <img src="./iage.webp" alt="">
+            <span>imagine dragons </span>
+        </div>
+        <div class="artist">
+            <img src="./emi.jpg" alt="">
+            <span>never lose</span>
+        </div>
+        <div class="artist">
+            <img src="./eminem.jpg" alt="">
+            <span>Eminem </span>
+        </div>
+        <div class="artist">
+            <img src="./nef.jpg" alt="">
+            <span>Neffex </span>
+        </div>
+        <div class="artist">
+            <img src="./draga.jpg" alt="">
+            <span>Castle</span>
+        </div>
+        <div class="artist">
+            <img src="./karma.jpg" alt="">
+            <span>Karma </span>
+        </div>
+        <div class="artist">
+            <img src="./khalid.jpg" alt="">
+            <span>Khalid </span>
+        </div>
+        <div class="artist">
+            <img src="./higher.jpg" alt="">
+            <span>higher</span>
+        </div>
+
+    </div>
+
+<audio id="player" controls src="/Eminem_-_Lose_Yourself_(Jesusful.com).mp3"></audio>
+
+
+
+
+
+
+
+</body>
+
+  <script src="script.js"></script>
+</html>
